@@ -1,0 +1,32 @@
+
+
+.menu-wrapper{
+    width: 25vw;
+    height: 80vh;
+    border: 1px solid gray;
+    /* margin-left: 10px; */
+    padding: 10px;
+    overflow: auto;
+}
+.breed-wrapper{
+display: flex;
+flex-direction: row;
+/* justify-content: space-evenly; */
+align-items: center;
+max-width: 100%;
+margin-bottom: 10px;
+padding: 5px;
+cursor: pointer;
+
+}
+.breed-image{
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+.breed-name{
+    margin-left: 10px;
+}
